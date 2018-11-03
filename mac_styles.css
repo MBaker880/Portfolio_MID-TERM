@@ -9,13 +9,13 @@ html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+    width: 100%;
 }
-header nav {
+
+nav {
     background-color: rgb(46, 45, 45);
     color: white;
     text-align: center;
-}
-nav {
     display: table;
     width: 100%;
 }
@@ -28,6 +28,18 @@ nav ul li {
     list-style-type: none;
     display: table-cell;
 }
+
+nav ul li a {
+    text-decoration-line: none;
+}
+
+nav a:link, nav a:visited {
+    color: rgb(255, 255, 255);
+ }
+ 
+ nav a:hover, nav a:active {
+    color: rgb(46, 95, 111);
+ }
 
 body {
     background-color: whitesmoke;
